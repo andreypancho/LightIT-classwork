@@ -1,0 +1,18 @@
+<app-todo-list>
+  <h2>Hello world</h2>
+</app-todo-list>
+
+
+<div *ngIf="showFirstBlock">First Block</div>
+<div *ngIf="!showFirstBlock">Second Block</div>
+<button (click)="changeFirstBlock()">Click</button>
+
+<div *ngFor="let user of users">{{user.name}} - {{user.age}}</div>
+
+<app-add-item></app-add-item>
+
+
+<div>
+  <p>Date {{birthday}}</p>
+  <p>Date with pipe {{birthday|date}}</p>
+</div>

@@ -1,0 +1,11 @@
+<div class="todo-list">
+  <ng-content></ng-content>
+  <div>
+    <app-todo-item [todoItem]="todoList" (onChangeStatus)="onChangeStatus($event)">
+    </app-todo-item>
+
+
+  </div>
+</div>
+
+
