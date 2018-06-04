@@ -1,0 +1,9 @@
+<form>
+
+  <div [formGroup]="fb">
+    <input type="text" formControlName="title">
+    <pre>{{fb.get('title').errors|json}}</pre>
+  </div>
+
+  <button type="submit">Add input</button>
+</form>

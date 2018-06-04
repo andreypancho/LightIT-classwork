@@ -1,8 +1,0 @@
-<div (click)="onClick()">
-  <input [(ngModel)]="test">
-
-  Test: {{test}}
-
-  <div (click)="toggleStatus()">{{todoItem.title}}</div>
-  <div *ngFor="let todo of todoItem; let i = index">{{i+1}} - {{todo.title}}</div>
-</div>

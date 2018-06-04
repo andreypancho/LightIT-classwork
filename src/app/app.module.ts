@@ -1,32 +1,23 @@
-import { BrowserModule } from '@angular/platform-browser';
+import { HttpClientModule } from '@angular/common/http';
 import { NgModule } from '@angular/core';
-
+import { BrowserModule } from '@angular/platform-browser';
+import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
-import { NewComponentComponent } from './new-component/new-component.component';
-import {TodoListComponent} from './todoList/todoList.component';
-import {TodoItemComponent} from './todoList/todoItem/todoItem.component';
-import {FormsModule} from '@angular/forms';
-import {DataService} from '../data.service';
-import {HttpClient, HttpClientModule} from '@angular/common/http';
-import {UsersService} from './services/users.service';
-import { AddItemComponent } from './todoList/add-item/add-item.component';
+import { UiModule } from './ui/ui.module';
+import { NotFoundComponent } from './not-found/not-found.component';
 
 @NgModule({
-  declarations: [
-    AppComponent,
-    NewComponentComponent,
-    TodoListComponent,
-    TodoItemComponent,
-    AddItemComponent
-  ],
+  declarations: [AppComponent, NotFoundComponent],
   imports: [
     BrowserModule,
-    FormsModule,
-    HttpClientModule
-
+    AppRoutingModule,
+    UiModule,
+    HttpClientModule,
+    NgbModule.forRoot()
   ],
-  providers: [DataService, UsersService],
+  providers: [],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule {}
