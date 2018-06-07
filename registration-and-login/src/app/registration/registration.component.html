@@ -1,14 +1,14 @@
-<form action="" name="reg">
+<form action="" name="reg" >
   <h2>Registration</h2>
   <p>Username</p>
-  <input type="text" name="username">
+  <input type="text" name="username" [name]="username">
   <p>Email</p>
-  <input type="text" name="email" required>
+  <input type="text" name="email" required [name]="email">
   <pre></pre>
   <p>Password</p>
-  <input type="password" name="password" required>
+  <input type="password" name="password" required [name]="password1">
   <p>Confirm password</p>
-  <input type="password" name="password2" required>
+  <input type="password" name="password2" required [name]="password2">
   <pre></pre>
-  <button type="submit">Registration</button>
+  <button type="button" (click)="onSubmit(username, email, password1, password2)">Registration</button>
 </form>
