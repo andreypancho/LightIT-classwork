@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="198a5fdf-5988-4a26-987f-194dac64c64e" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-and-login/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/registration-and-login/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-and-login/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/registration-and-login/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-and-login/src/app/app.module.ts" beforeDir="false" afterPath="$PROJECT_DIR$/registration-and-login/src/app/app.module.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-and-login/src/app/core/AuthService.service.ts" beforeDir="false" afterPath="$PROJECT_DIR$/registration-and-login/src/app/core/AuthService.service.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-and-login/src/app/login/login.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration-and-login/src/app/login/login.component.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-and-login/src/app/login/login.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/registration-and-login/src/app/login/login.component.ts" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/registration-and-login/src/app/registration/registration.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/registration-and-login/src/app/registration/registration.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration-and-login/src/app/app.component.html" beforeDir="false" afterPath="$PROJECT_DIR$/registration-and-login/src/app/app.component.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/registration-and-login/src/app/app.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/registration-and-login/src/app/app.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -35,14 +29,32 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="login.component.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/registration-and-login/src/app/login/login.component.ts">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="60">
-              <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+              <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
               <folding>
                 <element signature="e#0#48#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/registration-and-login/src/app/app.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="app.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/registration-and-login/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="45" selection-start-column="45" selection-end-column="45" />
             </state>
           </provider>
         </entry>
@@ -64,8 +76,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/registration-and-login/src/app/app.component.html" />
-        <option value="$PROJECT_DIR$/registration-and-login/src/app/app.component.ts" />
         <option value="$PROJECT_DIR$/registration-and-login/src/app/registration/registration.component.html" />
         <option value="$PROJECT_DIR$/registration-and-login/src/app/core/AuthInterceptor.ts" />
         <option value="$PROJECT_DIR$/registration-and-login/src/app/login/login.component.html" />
@@ -73,6 +83,8 @@
         <option value="$PROJECT_DIR$/registration-and-login/src/app/registration/registration.component.ts" />
         <option value="$PROJECT_DIR$/registration-and-login/src/app/login/login.component.ts" />
         <option value="$PROJECT_DIR$/registration-and-login/src/app/app.module.ts" />
+        <option value="$PROJECT_DIR$/registration-and-login/src/app/app.component.html" />
+        <option value="$PROJECT_DIR$/registration-and-login/src/app/app.component.ts" />
       </list>
     </option>
   </component>
@@ -141,30 +153,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="classwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="classwork" type="462c0819:PsiDirectoryNode" />
-              <item name="registration-and-login" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="core" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="classwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="classwork" type="462c0819:PsiDirectoryNode" />
-              <item name="registration-and-login" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="classwork" type="b2602c69:ProjectViewProjectNode" />
-              <item name="classwork" type="462c0819:PsiDirectoryNode" />
-              <item name="registration-and-login" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="registration" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -208,12 +196,12 @@
       <option name="presentableId" value="Default" />
       <updated>1528380540989</updated>
       <workItem from="1528380554864" duration="10118000" />
-      <workItem from="1528984990459" duration="4562000" />
+      <workItem from="1528984990459" duration="6724000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14680000" />
+    <option name="totallyTimeSpent" value="16842000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="-4" width="1535" height="904" extended-state="6" />
@@ -294,20 +282,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registration-and-login/src/app/app.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="33" lean-forward="true" selection-start-column="33" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/registration-and-login/src/app/app.component.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/registration-and-login/src/app/core/AuthInterceptor.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="165">
@@ -345,13 +319,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/registration-and-login/src/app/login/login.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="165">
-          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/registration-and-login/node_modules/angular5-social-login/auth.service.d.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30">
@@ -369,13 +336,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/registration-and-login/src/app/login/login.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="71" selection-start-line="11" selection-start-column="71" selection-end-line="11" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/registration-and-login/src/app/login/login.component.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
-          <caret line="4" column="31" lean-forward="true" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
+          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
           <folding>
             <element signature="e#0#48#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration-and-login/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="45" selection-start-column="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/registration-and-login/src/app/app.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" column="30" lean-forward="true" selection-start-line="14" selection-start-column="30" selection-end-line="14" selection-end-column="30" />
         </state>
       </provider>
     </entry>

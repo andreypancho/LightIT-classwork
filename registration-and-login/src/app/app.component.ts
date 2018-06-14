@@ -7,4 +7,14 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
 
+  public onPushImg(e) {
+    console.log(e.target.files);
+    const reader = new FileReader();
+    reader.readAsDataURL(e.target.files[0]);
+    reader.onloadend = () => {
+      console.log('end load');
+      reader.result;
+      console.log(reader.result);
+    };
+  }
 }
