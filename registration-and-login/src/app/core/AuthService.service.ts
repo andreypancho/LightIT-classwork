@@ -2,7 +2,7 @@ import {Injectable} from '@angular/core';
 import {HttpClient} from '@angular/common/http';
 
 @Injectable()
-export class AuthService {
+export class AuthServices {
   constructor(private http: HttpClient) {
 
   };

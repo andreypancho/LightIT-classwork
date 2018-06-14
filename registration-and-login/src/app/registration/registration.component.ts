@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-import {AuthService} from '../core/AuthService.service';
+import {AuthServices} from '../core/AuthService.service';
 
 @Component({
   selector: 'app-registration',
@@ -14,7 +14,7 @@ export class RegistrationComponent implements OnInit {
     password2 = '';
 
 
-  constructor(private authService: AuthService) {
+  constructor(private authService: AuthServices) {
   }
 
   ngOnInit() {
