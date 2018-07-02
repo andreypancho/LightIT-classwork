@@ -8,7 +8,7 @@ const Header = function() {
     return (
         <div className={Styles.header}>
             <ul>
-                <li>Home</li>
+                <li><Link to={'/'}>Home</Link></li>
                 <li><Link to={'/movies'}>Movies</Link></li>
             </ul>
         </div>

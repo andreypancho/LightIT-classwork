@@ -15,6 +15,7 @@ class App extends Component {
             <div>
                 <Hello name='Hello' number={25}/>
                 <Route path={'/movies'} component={Movies}/>
+                <Route path={'/'} render={ ()=>{<div>'Hello world'</div>} }/>
             </div>
         </BrowserRouter>
     );
